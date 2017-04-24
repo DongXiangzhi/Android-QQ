@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="用 户 登 录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_marginTop="14dp"
+        android:id="@+id/tvTitle_login"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="QQ号："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUserId_login"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/etUserId_login"
+        android:layout_alignBottom="@+id/etUserId_login"
+        android:layout_toLeftOf="@+id/etUserId_login"
+        android:layout_toStartOf="@+id/etUserId_login" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/tvTitle_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etUserId_login" />
+    <TextView
+        android:text="密码："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPassword_login"
+        android:textColor="@android:color/black"
+        android:layout_alignBottom="@+id/etPassword_login"
+        android:layout_toLeftOf="@+id/etPassword_login"
+        android:layout_toStartOf="@+id/etPassword_login" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/etUserId_login"
+        android:layout_alignLeft="@+id/etUserId_login"
+        android:layout_alignStart="@+id/etUserId_login"
+        android:id="@+id/etPassword_login" />
+    <Button
+        android:text="登  录"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword_login"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:id="@+id/btn_login"
+        android:onClick="loginClickHandler"/>
+</RelativeLayout>

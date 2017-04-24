@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QQClient</string>
+    <string name="register_title">注 册 新 用 户</string>
+    <string name="email">Email：</string>
+    <string name="qq">QQ号：</string>
+    <string name="password2">密码确认：</string>
+    <string name="password">密码：</string>
+    <string name="nickName">昵称：</string>
+    <string name="btnRegister">注  册</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
